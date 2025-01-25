@@ -1,10 +1,8 @@
-const number = [10,20,30,5,50];
-let maxnum = number[0];
-for(let i=1; i<number.length;i++)
+let num = [2,5,6,7,8,9,12,14,15,16,18,0]
+let even=[];
+for(let i=0;i<num.length;i++)
 {
-    if(number[i] > maxnum)
-    {
-        maxnum = number[i];
-    }
+    if(num[i]%2==0)
+        even.push(num[i]);
 }
-console.log(maxnum)
+console.log( "THE NUMBERS THAT ARE EVEN ARE: ", even);
